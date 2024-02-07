@@ -1,8 +1,9 @@
 import {Router} from "express";
-import {Api} from './Api/Apis';
+import {UserController} from './controller/UserController';
 
 export const router=Router();
 
-const api= new Api()
+const user= new UserController()
 
-router.post("/auth",api.auth);
+
+router.post("/create",user.create);

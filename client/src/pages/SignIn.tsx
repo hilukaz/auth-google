@@ -25,15 +25,19 @@ export function SignIn(){
 
       signInWithPopup(auth,provider).then((result)=>{
         setUser(result.user)
-        axios.post('localhost:3000/auth', {
-            
-        })
-        .then(function (response) {
-          console.log(response);
-        })
-        .catch(function (error) {
-          console.log(error);
-        });
+        console.log(result.user.email)
+        // axios.post('http://localhost:3000/create', {
+        //     name: result.user.displayName,
+        //     email: result.user.email,
+        //     photo: result.user.photoURL,
+
+        // })
+        // .then(function (response) {
+        //   console.log(response);
+        // })
+        // .catch(function (error) {
+        //   console.log(error);
+        // });
 
       })
       .catch((error)=>{

@@ -1,0 +1,22 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "npm create vite@latest \r npm install --save-dev sass\r npm install axios\r npx vite --host",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hilukaz/auth-google.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hilukaz/auth-google/issues"
+  },
+  "homepage": "https://github.com/hilukaz/auth-google#readme"
+}
