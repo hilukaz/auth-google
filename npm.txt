@@ -1,0 +1,10 @@
+npm create vite@latest 
+npm install --save-dev sass
+npm install axios
+npx vite --host
+
+npm install typescript --save-dev
+npm init -y     
+npm install cors
+npm install express
+npm install firebase
